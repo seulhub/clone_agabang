@@ -954,6 +954,10 @@ header
     transform: translate(-50%, -50%);
   }
 
+  header .logo img {
+    width: 115px;
+  }
+
   /* 모바일 header 왼쪽 메뉴 */
   .menu-left li span {
     display: none;
@@ -983,6 +987,16 @@ header
   .menu-right {
     gap: 10px;
     align-items: center;
+  }
+
+  /* -------------------------
+visual
+------------------------- */
+
+  /* 모바일 visual 텍스트 */
+  .visual-text h2,
+  .visual-text .visual-desc {
+    word-break: keep-all;
   }
 
   /* -------------------------
@@ -1062,6 +1076,10 @@ section
   .gift-left,
   .gift-right {
     width: 100%;
+  }
+
+  .gift-right ul {
+    transform: translateX(0);
   }
 
   .gift-arrow {
