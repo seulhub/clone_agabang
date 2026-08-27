@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>아가방몰</title>
+
+    <!-- 폰트어썸 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- swiper infinite loop css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <nav class="gnb">
+          <ul class="menu-left">
+            <li>
+              <i class="fa-solid fa-bars"></i>
+              <span>메뉴</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>검색</span>
+            </li>
+            <li><p>EN</p></li>
+          </ul>
+
+          <h1 class="logo">
+            <a href="index.html"
+              ><img class="logo-wh" src="img/mh_logo_wh.svg" alt="logo" />
+              <img class="logo-bk" src="img/mh_logo_bk.svg" alt="logo"
+            /></a>
+          </h1>
+
+          <ul class="menu-right">
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-user"></i>
+                <span>로그인</span></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <!-- <img src="img/icon_202601071558234100.png" alt="" /> -->
+                <i class="fa-regular fa-heart like"></i>
+                <span>관심</span></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <!-- <img src="img/icon_202505142121023500.png" alt="" /> -->
+                <i class="fa-solid fa-basket-shopping"></i>
+
+                <span class="cart-text">장바구니</span></a
+              >
+              <span class="cart-count">0</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="visual">
+      <!-- swiper 자동 슬라이드-->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/2d065065528c8050cbc1b31abf797670.jpg" alt="" />
+            <div class="visual-text">
+              <p class="visual-category">PROMOTION</p>
+              <h2>PLAY TOY</h2>
+              <p class="visual-desc">
+                흔들목마 · 소꿉놀이 런칭 기념
+                <br />
+                1만원 추가할인쿠폰+구매금액 사은품 증정
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/ef6a4ca63362d3e2bef36bfc86e7ae4a.jpg" alt="" />
+            <div class="visual-text">
+              <p class="visual-category">[아가ON] LIVE</p>
+              <h2>HOT SUMMER</h2>
+              <p class="visual-desc">
+                6/2(화) 11:00-12:00, 1시간 단독특가
+                <br />
+                무료배송+구매인증&소통왕 사은품!
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/6eba6d1ef8288e159ae5ba47563257cc.jpg" alt="" />
+            <div class="visual-text">
+              <p class="visual-category">agabang</p>
+              <h2>아가방 썸머 컬렉션</h2>
+              <p class="visual-desc">
+                26 SUMMER SEASON
+                <br />
+                아가방 신상 썸머 컬렉션 오픈
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/b9d3c2816ad00ae4a5497c414d29fdf9.jpg" alt="" />
+            <div class="visual-text">
+              <h2>완벽한 선물 가이드</h2>
+              <p class="visual-desc">
+                특별한 날을 더욱 특별하게 빛내줄
+                <br />
+                아가방 선물세트
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/f94abe9e44c143b8314fe39a4822a466.jpg" alt="" />
+            <div class="visual-text">
+              <h2>완벽한 선물 가이드</h2>
+              <p class="visual-desc">
+                특별한 날을 더욱 특별하게 빛내줄
+                <br />
+                디즈니베이비 선물세트
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/68b576524f0c0204fa5af15c40e56dae.jpg" alt="" />
+            <div class="visual-text">
+              <h2>아가방좋은</h2>
+              <p class="visual-desc">
+                엄마와 아기의 일상에
+                <br />
+                꼭 필요한 육아용품 브랜드
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/0b6c4978e68a773339032ef0db689601.jpg" alt="" />
+            <div class="visual-text">
+              <h2>새로운 시작을 축하해요!</h2>
+              <p class="visual-desc">
+                당신의 특별한 여정,
+                <br />
+                아가방이 함께 응원합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- 스테디셀러 -->
+    <section class="steady-seller">
+      <div class="steady-inner">
+        <div class="title-wrap">
+          <div class="category-text">
+            <h2>STEADY SELLER</h2>
+            <p>아가방 스테디 셀러</p>
+          </div>
+          <div class="category-icon">
+            <i class="fa-solid fa-angle-left steady-prev"></i>
+            <i class="fa-solid fa-angle-right steady-next"></i>
+          </div>
+        </div>
+
+        <div class="swiper steadySwiper">
+          <div class="swiper-wrapper steady-card">
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/82b1845172adec5350dbada1b14e5f73.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+              <h3>아가방좋은</h3>
+              <a href="#">
+                <p class="product">
+                  [아가방좋은]실리콘 이유식 용기 300ml(BROWN,BLUE,RED)_58T062601
+                </p>
+              </a>
+              <p class="price">9,500원</p>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img
+                    src="img/shop1_21951073e2c6c9b86482b67bbe3649a5.jpg"
+                    alt=""
+                  />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+              <h3>아가방좋은</h3>
+              <a href="#">
+                <p class="product">[아가방좋은]손톱깎이 키트_58S066401</p>
+              </a>
+              <p class="price">69,000원</p>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/0cf74e50840a0e7e01b2887fdb172e23.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+              <h3>아가방좋은</h3>
+              <a href="#">
+                <p class="product">
+                  [아가방좋은]통풍 쿨시트(WHITE,BEIGE)_58T083801 (+헤파필터
+                  추가증정)
+                </p>
+              </a>
+              <p class="price">
+                <span class="sale">22%</span>
+                69,000원
+                <span class="not-sale">89,000원</span>
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/a2c495bca57968722073b8c26cf9fbd6.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+              <h3>아가방좋은</h3>
+              <a href="#">
+                <p class="product">
+                  [아가방좋은]주방 소꿉놀이 세트(딸기)_58T063301
+                </p>
+              </a>
+              <p class="price">
+                <span class="sale">20%</span>
+                22,400원
+                <span class="not-sale">28,000원</span>
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/ba9121dfb34a12c2b9bfc34dceff13e7.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+              <h3>아가방</h3>
+              <a href="#">
+                <p class="product">
+                  [아가방 여름신상]ON)동물친구들반소내의(O/WHITE)_01T31762803
+                </p>
+              </a>
+              <p class="price">
+                <span class="sale">30%</span>
+                13,900원
+                <span class="not-sale">19,900원</span>
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/cf037e16bd36950bd91a1bc5282d9778.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+              <h3>아가방</h3>
+              <a href="#">
+                <p class="product">
+                  [아가방 여름신상]루키ST반팔원피스(YELLOW)_01T33405287
+                </p>
+              </a>
+              <p class="price">69,000원</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 기프트샵 -->
+    <section class="gift-shop">
+      <div class="category-text">
+        <h2>GIFT SHOP</h2>
+        <p>선물하기</p>
+      </div>
+
+      <div class="gift-set">
+        <div class="gift-left">
+          <a href="#">
+            <div class="gift-text">
+              <h2>GIFT SET</h2>
+              <p>
+                마음을 전하는 특별한 순간, <br />
+                정성으로 완성한 선물세트
+              </p>
+              <div class="gift-button">
+                <p>자세히 보기</p>
+                <i class="fa-solid fa-square-up-right"></i>
+              </div>
+            </div>
+            <div class="gift-image">
+              <img src="img/e8be02c6832a1aaf1338f2f9d120c589.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+        <div class="gift-right">
+          <ul>
+            <li>
+              <div class="thumbnail">
+                <img
+                  class="img-view"
+                  src="img/f388c70f52fcf33c04fd76f70b2f2828.jpg"
+                  alt=""
+                />
+                <div>
+                  장바구니 담기 <img src="img/ag_link_cart_20.svg" alt="" />
+                </div>
+                <img
+                  class="heart"
+                  src="img/icon_202601071558234100.png"
+                  alt=""
+                />
+              </div>
+              <div class="description">
+                <p>디즈니베이비</p>
+                <p>[디즈니베이비]미키버튼 낮잠이불세트_79R084002</p>
+                <p>
+                  <span class="sale">48% </span>
+                  <span class="price">77,500원 </span>
+                  <span class="cost">149,000원</span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img
+                  class="img-view"
+                  src="img/3238835c77712228a5f5eb3625f870d2.jpg"
+                  alt=""
+                />
+                <div>
+                  장바구니 담기 <img src="img/ag_link_cart_20.svg" alt="" />
+                </div>
+                <img
+                  class="heart"
+                  src="img/icon_202601071558234100.png"
+                  alt=""
+                />
+              </div>
+              <div class="description">
+                <p>디즈니베이비</p>
+                <p>[디즈니베이비]미키버튼 낮잠이불세트_79R084002</p>
+                <p>
+                  <span class="price">149,000원</span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img
+                  class="img-view"
+                  src="img/3b72937739e5db402018fa2867ea12ae.jpg"
+                  alt=""
+                />
+                <div>
+                  장바구니 담기 <img src="img/ag_link_cart_20.svg" alt="" />
+                </div>
+                <img
+                  class="heart"
+                  src="img/icon_202601071558234100.png"
+                  alt=""
+                />
+              </div>
+              <div class="description">
+                <p>디즈니베이비</p>
+                <p>[디즈니베이비]미키버튼 낮잠이불세트_79R084002</p>
+                <p>
+                  <span class="sale">48% </span>
+                  <span class="price">77,500원 </span>
+                  <span class="cost">149,000원</span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img
+                  class="img-view"
+                  src="img/a8a662ba32b83358fd86d38199de1d93.jpg"
+                  alt=""
+                />
+                <div>
+                  장바구니 담기 <img src="img/ag_link_cart_20.svg" alt="" />
+                </div>
+                <img
+                  class="heart"
+                  src="img/icon_202601071558234100.png"
+                  alt=""
+                />
+              </div>
+              <div class="description">
+                <p>디즈니베이비</p>
+                <p>[디즈니베이비]미키버튼 낮잠이불세트_79R084002</p>
+                <p>
+                  <span class="price">149,000원</span>
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="gift-arrow">
+            <i class="fa-solid fa-angle-left gift-prev"></i>
+            <i class="fa-solid fa-angle-right gift-next"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 뉴아이템 -->
+    <section class="new-item">
+      <div class="new-inner">
+        <div class="title-wrap">
+          <div class="category-text">
+            <h2>NEW ITEM</h2>
+            <p>신상품</p>
+          </div>
+          <div class="category-icon">
+            <i class="fa-solid fa-angle-left new-prev"></i>
+            <i class="fa-solid fa-angle-right new-next"></i>
+          </div>
+        </div>
+
+        <div class="swiper newSwiper">
+          <div class="swiper-wrapper new-card">
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/98de99cedba3fe7384920195365e5a68.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+
+              <div class="new-info">
+                <h3>디즈니베이비</h3>
+                <a href="#">
+                  <p class="product">
+                    [디즈니베이비
+                    여름신상]해피곰돌이푸전판블루머상하(YELLOW)_79T32305387
+                  </p>
+                </a>
+                <p class="price">59,000원</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/003e21b79cf901651f6c82ef0ecf69e9.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+
+              <div class="new-info">
+                <h3>디즈니베이비</h3>
+                <a href="#">
+                  <p class="product">
+                    [디즈니베이비 여름신상]미니마린ST오버올(PINK)_79T32755258
+                  </p>
+                </a>
+                <p class="price">79,000원</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/e2c43d309ca6abe790e85d3af5e629b7.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+
+              <div class="new-info">
+                <h3>디즈니베이비</h3>
+                <a href="#">
+                  <p class="product">
+                    [디즈니베이비 여름신상]미니마린ST오버올(BLUE)_79T32751142
+                  </p>
+                </a>
+                <p class="price">79,000원</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/d7bf1fa2235ee01b5a52254a835c9787.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+
+              <div class="new-info">
+                <h3>디즈니베이비</h3>
+                <a href="#">
+                  <p class="product">
+                    [디즈니베이비 여름신상]곰돌이푸알파벳파자마(RED)_79T34300293
+                  </p>
+                </a>
+                <p class="price">55,000원</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/156b06d6d7599844d3421c8861c5a35c.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+
+              <div class="new-info">
+                <h3>아가방</h3>
+                <a href="#">
+                  <p class="product">
+                    [아가방 여름신상]앨리나시원피스가디건세트(BLUE)_01T32405342
+                  </p>
+                </a>
+                <p class="price">79,000원</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="thumb">
+                  <img src="img/beda4728a2d10c16be47c3acabecce46.jpg" alt="" />
+                  <div class="cart">
+                    <p>장바구니 담기</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </div>
+                </div>
+              </a>
+
+              <div class="new-info">
+                <h3>아가방</h3>
+                <a href="#">
+                  <p class="product">
+                    [아가방 신상]루카올인원수영복(모자)(PINK)_01T05595358
+                  </p>
+                </a>
+                <p class="price">59,000원</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 배너 -->
+    <section class="banner">
+      <div class="swiper bannerSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="banner-text">
+              <h2>MEMBERSHIP</h2>
+              <p>회원 가입 후 고객님을 위한 다양한 혜택을 만나보세요.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="banner-text">
+              <h2>ONLINE ONLY</h2>
+              <p>아가방 온라인 전용 상품을 만나보세요.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner-icon">
+        <i class="fa-solid fa-angle-left banner-prev"></i>
+        <i class="fa-solid fa-angle-right banner-next"></i>
+      </div>
+    </section>
+
+    <section class="brand">
+      <div class="category-text">
+        <h2>BRAND</h2>
+        <p>아가방 대표 브랜드</p>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">
+            <div class="brand-text">
+              <h2>아가방</h2>
+              <p>
+                아이들의 웃음과 싱그러운 여름 꿈을 가꾸는 엄마의 마음 <br />
+                대한민국 대표 유아동복 브랜드
+              </p>
+              <div class="brand-button">
+                <p>자세히 보기</p>
+                <i class="fa-solid fa-square-up-right"></i>
+              </div>
+            </div>
+            <div class="brand-image">
+              <img src="img/1af3257dd9dfbe7882eacba64a1d722d.jpg" alt="" />
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <div class="brand-text">
+              <h2>디즈니 베이비</h2>
+              <p>
+                아이들의 일상이 동화처럼 빛나는 특별하고 소중한 순간 <br />
+                꿈과 희망을 전하는 유아동 라이프스타일 브랜드
+              </p>
+              <div class="brand-button">
+                <p>자세히 보기</p>
+                <i class="fa-solid fa-square-up-right"></i>
+              </div>
+            </div>
+            <div class="brand-image">
+              <img src="img/0066cd6254ba1d34f48f3db2c1e772e2.jpg" alt="" />
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <div class="brand-text">
+              <h2>아가방좋은</h2>
+              <p>
+                엄마와 아기의 일상에 건강한 즐거움과 포근한 쉼을 담은 <br />
+                편안하고 자연스러운 육아용품 브랜드
+              </p>
+              <div class="brand-button">
+                <p>자세히 보기</p>
+                <i class="fa-solid fa-square-up-right"></i>
+              </div>
+            </div>
+            <div class="brand-image">
+              <img src="img/a2c495bca57968722073b8c26cf9fbd6.jpg" alt="" />
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <div class="brand-text">
+              <h2>퓨토시크릿</h2>
+              <p>
+                국내 유일 특허원료 갈색 진정 <br />
+                허브수를 담은 베이비 스킨케어 브랜드
+              </p>
+              <div class="brand-button">
+                <p>자세히 보기</p>
+                <i class="fa-solid fa-square-up-right"></i>
+              </div>
+            </div>
+            <div class="brand-image">
+              <img src="img/3600cd09db000df8edec0d9ff304dd08.jpg" alt="" />
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <div class="brand-text">
+              <h2>꼬똥드베베</h2>
+              <p>
+                함께하는 순간 특별해지는 <br />
+                일상 수면・생활 패브릭 브랜드
+              </p>
+              <div class="brand-button">
+                <p>자세히 보기</p>
+                <i class="fa-solid fa-square-up-right"></i>
+              </div>
+            </div>
+            <div class="brand-image">
+              <img src="img/36f769c714010ec0ed788582e9c07650.jpg" alt="" />
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <div class="brand-text">
+              <h2>엘츠</h2>
+              <p>
+                엄마의 품처럼 편안하고 안정적인 설계, <br />
+                부모와 교감하는 행복한 외출을 만드는 브랜드
+              </p>
+              <div class="brand-button">
+                <p>자세히 보기</p>
+                <i class="fa-solid fa-square-up-right"></i>
+              </div>
+            </div>
+            <div class="brand-image">
+              <img src="img/e631826e9bfa730274ec4cdc17e336e7.jpg" alt="" />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="footer-left">
+        <h1>
+          <a href="index.html">
+            <img src="img/mh_logo_bk.svg" alt="logo" />
+          </a>
+        </h1>
+        <div class="footer-info">
+          <p>
+            <span>상호 : (주)아가방앤컴퍼니</span>
+            <span>대표 : 신상국</span>
+            <span
+              >주소 : 06141 아가방빌딩 8층, 서울특별시 강남구 테헤란로 207
+              (역삼동)</span
+            >
+          </p>
+          <p>
+            <span>통신판매업신고번호 : 제2013-서울강남-02148호</span>
+            <span>사업자등록번호 : 220-81-01830 </span>
+            <span class="check-info">사업자정보확인</span>
+          </p>
+          <p>
+            <span>개인정보관리책임자 : 유영민 </span>
+            <span>이메일 : agabangmall@agabang.com</span>
+          </p>
+        </div>
+
+        <div class="copyright">
+          <p>copyright © agabangmall.com all rights reserved.</p>
+          <p>
+            고객님은 안전거래를 위해 결제 시 저희 사이트에서 구입한 구매안전
+            서비스를 이용하실 수 있습니다.
+            <span class="check-toss">토스페이먼츠 가입확인</span>
+          </p>
+        </div>
+
+        <ul>
+          <li>
+            <a href="#"> 회사소개 </a>
+          </li>
+
+          <li>
+            <a href="#"> 이용약관 </a>
+          </li>
+
+          <li>
+            <a href="#"> 개인정보처리방침 </a>
+          </li>
+
+          <li>
+            <a href="#"> 이용안내 </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <ul>
+          <li>
+            <a href="#"> 공지사항 </a>
+          </li>
+
+          <li>
+            <a href="#"> 자주 묻는 질문 </a>
+          </li>
+
+          <li>
+            <a href="#"> 1:1 문의 </a>
+          </li>
+
+          <li>
+            <a href="#"> 주문조회 </a>
+          </li>
+        </ul>
+
+        <div class="cs">
+          <div class="cs-number">
+            <p>고객센터 1688-3992 <span>(유료)</span></p>
+          </div>
+          <div class="cs-time">
+            <p>월~금 10:00-16:00, (주말/공휴일 휴무)</p>
+            <p>유선상담이 원활하지 않을 경우 1:1 문의 부탁드립니다.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- swiper Infinite loop js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- <script src="js/jquery-4.0.0.min.js"></script> -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
