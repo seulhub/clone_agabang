@@ -1049,6 +1049,11 @@ section
     gap: 0.6rem;
   }
 
+  .steady-card .product {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
   /* new item */
   .new-card .swiper-slide {
     display: flex;
@@ -1087,8 +1092,15 @@ section
   }
 
   /* 모바일 banner */
+
+  .banner-text {
+    line-height: 1.6rem;
+  }
+
   .banner-text p {
     word-break: keep-all;
+
+    margin-top: 1rem;
   }
 
   /* 모바일 brand */
